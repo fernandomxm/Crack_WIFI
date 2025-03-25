@@ -17,7 +17,7 @@ PODE SER UTILIZADO: wpaclean, para gerar o arquivo .cap "LIMPO", apenas com EAPO
 <br>
 Pode ser utilizada uma automatização com o crunch (On-the-Fly Wordlist Generation): <br> <br>
 <b> crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha | aircrack-ng -b E4:C0:E2:1C:6E:6B -w - clean.cap </b> <br> <br>
-Dessa forma, ele ira gerar uma lista gigante de de teste, sem consumir espaço em disco. <br>
+Dessa forma, ele ira gerar uma lista gigante de de teste, sem consumir espaço em disco. <br> <br>
 Para gerar a wordlist pode ser usado o: <br>
 crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 <br>

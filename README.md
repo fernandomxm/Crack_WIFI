@@ -15,3 +15,5 @@ Para gerar a wordlist pode ser usado o: <br>
 crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 <br>
 O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br>
+
+![IMAGE01](https://github.com/fernandomxm/Crack_WIFI/blob/main/image01.png)

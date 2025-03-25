@@ -14,4 +14,4 @@ aircrack-ng -w /usr/share/wordlists/rockyou.txt -b E4:C0:E2:1C:6E:6B captura.cap
 Para gerar a wordlist pode ser usado o: <br>
 crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 <br>
-Parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor sinal.  <br>
+O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br>

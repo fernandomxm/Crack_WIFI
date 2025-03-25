@@ -15,7 +15,7 @@ PODE SER UTILIZADO: wpaclean, para gerar o arquivo .cap "LIMPO", apenas com EAPO
 <b>wpaclean clean.cap captura.cap</b>  <br><br>
 <b> aircrack-ng -w /usr/share/wordlists/rockyou.txt -b E4:C0:E2:1C:6E:6B clean.cap  </b> <br>
 <br>
-Pode ser utilizada uma automatização com o crunch: <br> <br>
+Pode ser utilizada uma automatização com o crunch (On-the-Fly Wordlist Generation): <br> <br>
 <b> crunch 8 10 | aircrack-ng -b E4:C0:E2:1C:6E:6B -w - clean.cap </b> <br> <br>
 Dessa forma, ele ira gerar uma lista gigante de de teste, sem consumir espaço em disco. <br>
 Para gerar a wordlist pode ser usado o: <br>

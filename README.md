@@ -25,7 +25,8 @@ crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 /usr/share/seclists/ <br>
 /usr/share/wordlists/rockyou.txt <br>
 Weakpass, CrackStation, Pastebin <br> <br>
-Organizando arquivo wordlist customizado: sort wordlist.txt | uniq -u > wordlist_final.txt <br> <br>
+Organizando arquivo wordlist customizado: <br>
+<b> sort wordlist.txt | uniq -u > wordlist_final.txt </b> <br> <br>
 O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br> <br> <br>
 <b> FORMA VIA WPS SEM USO DE WORDLIST (Isso só funciona se o roteador estiver configurado para não usar PBC (Push Button Authentication) </b> <br>
 wash --interface wlan0 <br>

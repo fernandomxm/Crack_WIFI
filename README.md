@@ -37,7 +37,7 @@ reaver --bssid E4:C0:E2:1C:6E:6B  --channel 10 --interface wlan0 -vvv --no-assoc
 aireplay-ng --fakeauth 30 -a E4:C0:E2:1C:6E:6B -h mac_wlan0 wlan0  <br> <br>
 <b> Avaliar linha com: WPA PSK: </b>
 </br> </br>
-https://github.com/PNPtutorials/fluxion/fluxion </br>
+https://github.com/PNPtutorials/fluxion </br>
 https://github.com/PNPtutorials/wifiphisher </br>
 https://github.com/kernel-64/linset </br>
 https://github.com/chunkingz/linsetmv1-2 </br>
